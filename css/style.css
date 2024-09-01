@@ -1,0 +1,86 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+body{
+ background-color: rgba(0, 0, 0, 0.318);
+}
+.section .container{
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 30px;
+    border-radius: 20px;
+}
+.nav{
+  gap: 40%;
+}
+.ri-calendar-todo-fill{
+  text-decoration: none;
+  color: rgb(33, 33, 82);
+}
+.body{
+  display: flex;
+  align-content: center;
+  margin-left: 18rem;
+  gap: 3%;  
+}
+/* .form-control{
+  font-size: 10%;
+} */
+.ri-add-box-fill{
+  font-size: 300%;
+  color: rgb(33, 33, 82);
+}
+.form-check-input{
+  margin-left: 1rem;
+}
+.todooptions{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 80%;
+  gap: 1%;
+  font-size: 100%; 
+  margin-right: 62rem; /* Center horizontally */
+  margin: 10px auto
+}
+.completed{
+  text-decoration:yellow line-through;
+}
+.hide{
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 987px) {
+   .body{
+    /* background-color: red; */
+    margin-left: 1rem;
+
+   }
+
+   .todooptions {
+    margin-right:85rem  ;
+    
+
+}}
+
+@media (max-width: 751px) {
+  .body {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+  }
+
+  .todooptions {
+    width: 100%; /* Full width on small screens */
+    margin: 10px auto;
+  }
+
+  .form-check-input {
+    margin-left: 0; /* Remove left margin for better centering */
+  }
+
+  .ri-add-box-fill {
+    font-size: 200%; /* Slightly reduce icon size on small screens */
+  }
+}
