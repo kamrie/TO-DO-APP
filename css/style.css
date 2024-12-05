@@ -5,11 +5,14 @@
 } */
 body{
  background-color: rgba(0, 0, 0, 0.318);
+ margin-top: 190px;
 }
 .section .container{
     background-color: rgba(0, 0, 0, 0.24);
     padding: 30px;
     border-radius: 20px;
+    box-shadow: 0 8px 22px rgba(164, 79, 79, 0.2); /* Larger shadow on hover */
+
 }
 .nav{
   gap: 40%;
@@ -45,7 +48,7 @@ body{
   margin: 10px auto
 }
 .completed{
-  text-decoration:yellow line-through;
+  text-decoration:rgb(220, 37, 37) line-through;
 }
 .hide{
   display: none;
